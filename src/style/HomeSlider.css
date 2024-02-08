@@ -1,0 +1,20 @@
+.slider_01 {
+  background: linear-gradient(rgba(19, 19, 20, 0.2), rgba(21, 21, 21, 0.2)), url(../Assets/slider02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider_02 {
+  background: linear-gradient(rgba(19, 19, 20, 0.2), rgba(21, 21, 21, 0.2)), url(../Assets/slider01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider_03 {
+  background: linear-gradient(rgba(19, 19, 20, 0.2), rgba(21, 21, 21, 0.2)), url(../Assets//slider03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
