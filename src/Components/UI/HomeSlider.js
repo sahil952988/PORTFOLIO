@@ -2,6 +2,7 @@ import React from 'react'
 import "../../style/HomeSlider.css"
 import Slider from 'react-slick'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import { Link } from 'react-router-dom';
 
 const HomeSlider = () => {
 
@@ -24,6 +25,10 @@ const HomeSlider = () => {
   };
   return (
     <>
+      <div className="">
+        <p className=''> <Link to='P'>practice</Link></p>
+      </div>
+
       <Slider {...settings} className="overflow-hidden">
 
         <div className="slider_01 text-white h-[725px]">

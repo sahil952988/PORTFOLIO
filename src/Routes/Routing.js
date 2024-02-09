@@ -6,6 +6,7 @@ import Contact from "../Pages/Contact"
 import Home from "../Pages/Home"
 
 
+
 const Routing = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Routing = () => {
         <Route path='/Services' element={<Services />} />
         <Route path='Portfolio' element={<Portfolio />} />
         <Route path='Contact' element={<Contact />} />
+
       </Routes>
     </>
   )
