@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const NeedaService = () => {
   return (
     <>
@@ -6,7 +8,7 @@ const NeedaService = () => {
           <p className="text-white text-[40px] font-bold text-center">NEED A SERVICE ?</p>
         </div>
         <div className="button flex justify-center">
-          <button className="rounded-full px-3 py-2 hover:bg-black hover:text-white font-bold bg-white">SAY HELLO!</button>
+          <button className="rounded-full px-3 py-2 hover:bg-black hover:text-white font-bold bg-white"><Link to='/Contact'>SAY HELLO!</Link></button>
         </div>
       </div>
     </>

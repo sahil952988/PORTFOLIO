@@ -3,6 +3,7 @@ import HomeSlider from "../Components/UI/HomeSlider"
 import NeedaService from "../Components/UI/NeedaService"
 import Testimonial from "../Components/UI/Testimonial"
 import About from "./About"
+import Contact from "./Contact"
 import Portfolio from "./Portfolio"
 import Services from "./Services"
 
@@ -16,6 +17,7 @@ const Home = () => {
         <NeedaService />
         <Portfolio />
         <Testimonial />
+        <Contact />
       </Helmet>
     </>
   )

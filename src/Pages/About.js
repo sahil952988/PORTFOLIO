@@ -14,7 +14,7 @@ const About = () => {
     <>
       <div className="bg-white py-16">
 
-        <div className="heading mb-32 xl:ml-[280px] lg:ml-[50px] ml-[100px]">
+        <div className="heading mb-32 xl:ml-[280px] lg:ml-[50px] ml-[50px]">
           <h1 className='text-[#e65f78] '>BIOGRAPHY</h1>
           <h1 className='text-[30px] font-bold'>About Me</h1>
         </div>

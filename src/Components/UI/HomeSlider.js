@@ -27,9 +27,9 @@ const HomeSlider = () => {
     <>
       <Slider {...settings} className="overflow-hidden">
 
-        <div className="slider_01 text-white h-[725px]">
+        <div className="slider_01 text-white h-[825px]">
           <div className="Heading flex justify-between">
-            <p className='text-[40px] pl-10 pt-5 font-bold'>Sahil</p>
+            <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-poo-storm"></i></p>
             <div className="menu">
               <p className='text-[40px] pr-10 pt-5'><i class="fa-solid fa-bars"></i></p>
             </div>
@@ -47,7 +47,7 @@ const HomeSlider = () => {
         </div>
 
         {/* ---------slider 2 ------------ */}
-        <div className="slider_02 text-white    h-[725px]">
+        <div className="slider_02 text-white    h-[825px]">
           <div className="Heading flex justify-between">
             <p className='text-[40px] pl-10 pt-5 font-bold'>Sahil</p>
             <div className="menu">
@@ -68,7 +68,7 @@ const HomeSlider = () => {
 
         {/* ----------- slider 03 -------------- */}
 
-        <div className="slider_03 text-white   h-[725px]">
+        <div className="slider_03 text-white   h-[825px]">
           <div className="Heading flex justify-between">
             <p className='text-[40px] pl-10 pt-5 font-bold'>Sahil</p>
             <div className="menu">
