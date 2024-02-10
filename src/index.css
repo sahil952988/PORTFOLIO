@@ -10,3 +10,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.fa-quote-left,
+.fa-quote-right {
+  font-size: 25px;
+}

@@ -18,8 +18,8 @@ const Portfolio = () => {
     <>
       <div className=" bg-white 2xl:px-[200px] xl:px-[150px] lg:px-[50px] px-[30px] py-16 ">
 
-        <h1>Explore my work samples that I have done so far</h1>
-        <h1 className="text-[32px] font-semibold">Portfolio</h1>
+        <h1 className='text-[20px]  text-[#000d6b]'>Explore my work samples that I have done so far</h1>
+        <h1 className="text-[40px] font-bold">Portfolio</h1>
 
         <div className="item grid xl:grid-cols-3 lg:grid-cols-2 gap-5 pt-5">
 
