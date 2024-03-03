@@ -116,7 +116,7 @@ const Portfolio = () => {
 
             {isHovering && (
               <div className="live_website pt-5 flex space-x-5">
-                <a className='border-2 border-red-600 text-[18px] px-4 py-2 rounded-[8px] text-white' href="https://pre-school-kider.vercel.app/" target="_blank">Live</a>
+                <a className='border-2 border-red-600 text-[18px] px-4 py-2 rounded-[8px] text-white' href="https://preschool-kider.vercel.app/Home" target="_blank">Live</a>
                 <a className='border-2 border-red-600 text-[18px] px-4 py-2 rounded-[8px] text-white' href="https://github.com/sahil952988" target="_blank">Github</a>
               </div>
             )}
