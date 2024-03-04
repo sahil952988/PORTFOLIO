@@ -2,6 +2,7 @@ import React from 'react'
 import "../style/About.css"
 import ava01 from "../Assets/ava01.jpg"
 import certificate from "../Assets/MERNSTACK CERTIFICATE.pdf"
+import cv from "../Assets/My resume.pdf"
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 const About = () => {
 
@@ -61,13 +62,16 @@ const About = () => {
               </div>
             </div>
 
+            <div className="downloads flex space-x-5">
+              <a href={certificate} download="certificate" target='_blank'>
+                <button className="bg-[#e65f78] text-white mt-5 h-[60px]  px-[12px]">Download Certificate</button>
+              </a>
 
-            <a href={certificate} download="certificate" target='_blank'>
-              <button className="bg-[#e65f78] text-white mt-5 h-[60px]  px-[12px]">Download Certificate</button>
-            </a>
+              <a href={cv} download="Sahil ALi -resume" target='_blank'>
+                <button className="bg-[#e65f78] text-white mt-5 h-[60px]  px-[12px]">Download Resume</button>
+              </a>
 
-
-
+            </div>
           </div>
 
 
