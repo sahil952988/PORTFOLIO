@@ -30,9 +30,9 @@ const HomeSlider = () => {
         <div className="slider_01 text-white h-[825px]">
           <div className="Heading flex justify-between">
             <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-poo-storm"></i></p>
-            <div className="menu">
+            {/* <div className="menu">
               <p className='text-[40px] pr-10 pt-5'><i class="fa-solid fa-bars"></i></p>
-            </div>
+            </div> */}
           </div>
 
           <div className="Details 2xl:ml-[230px] sm:ml-[100px] ml-[50px] mt-[180px]">
@@ -47,12 +47,13 @@ const HomeSlider = () => {
         </div>
 
         {/* ---------slider 2 ------------ */}
-        <div className="slider_02 text-white    h-[825px]">
+
+        <div className="slider_02 text-white h-[825px]">
           <div className="Heading flex justify-between">
-            <p className='text-[40px] pl-10 pt-5 font-bold'>Sahil</p>
-            <div className="menu">
+            <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-poo-storm"></i></p>
+            {/* <div className="menu">
               <p className='text-[40px] pr-10 pt-5'><i class="fa-solid fa-bars"></i></p>
-            </div>
+            </div> */}
           </div>
 
           <div className="Details 2xl:ml-[230px] sm:ml-[100px] ml-[50px] mt-[180px]">
@@ -68,12 +69,13 @@ const HomeSlider = () => {
 
         {/* ----------- slider 03 -------------- */}
 
-        <div className="slider_03 text-white   h-[825px]">
+
+        <div className="slider_03 text-white h-[825px]">
           <div className="Heading flex justify-between">
-            <p className='text-[40px] pl-10 pt-5 font-bold'>Sahil</p>
-            <div className="menu">
+            <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-poo-storm"></i></p>
+            {/* <div className="menu">
               <p className='text-[40px] pr-10 pt-5'><i class="fa-solid fa-bars"></i></p>
-            </div>
+            </div> */}
           </div>
 
           <div className="Details 2xl:ml-[230px] sm:ml-[100px] ml-[50px] mt-[180px]">

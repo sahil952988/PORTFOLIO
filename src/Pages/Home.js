@@ -10,7 +10,7 @@ import Services from "./Services"
 const Home = () => {
   return (
     <>
-      <Helmet title='Portfolio`'>
+      <Helmet title='Portfolio'>
         <HomeSlider />
         <About />
         <Services />

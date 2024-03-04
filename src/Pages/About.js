@@ -1,6 +1,7 @@
 import React from 'react'
 import "../style/About.css"
 import ava01 from "../Assets/ava01.jpg"
+import certificate from "../Assets/MERNSTACK CERTIFICATE.pdf"
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 const About = () => {
 
@@ -59,7 +60,14 @@ const About = () => {
                 <p className="py-2"> <i class="fa-solid fa-phone"></i> Phone: +977 9809364854</p>
               </div>
             </div>
-            <button className="bg-[#e65f78] text-white mt-5 h-[60px] w-[150px] px-[12px]">Download CV</button>
+
+
+            <a href={certificate} download="certificate" target='_blank'>
+              <button className="bg-[#e65f78] text-white mt-5 h-[60px]  px-[12px]">Download Certificate</button>
+            </a>
+
+
+
           </div>
 
 
