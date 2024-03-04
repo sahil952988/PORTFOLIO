@@ -2,7 +2,7 @@ import React from 'react'
 import "../style/About.css"
 import ava01 from "../Assets/ava01.jpg"
 import certificate from "../Assets/MERNSTACK CERTIFICATE.pdf"
-import cv from "../Assets/My resume.pdf"
+import cv from "../Assets/My resume-2.pdf"
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 const About = () => {
 
