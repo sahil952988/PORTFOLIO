@@ -18,3 +18,18 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  .image {
+    display: none;
+    color: #000d6b;
+    padding-top: 250px;
+    position: fixed;
+  }
+
+  .menu__active {
+    display: block;
+  }
+}

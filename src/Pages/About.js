@@ -2,12 +2,12 @@ import React from 'react'
 import "../style/About.css"
 import ava01 from "../Assets/ava01.jpg"
 import certificate from "../Assets/MERNSTACK CERTIFICATE.pdf"
-import cv from "../Assets/My resume-2.pdf"
+import cv from "../Assets/My Resume.pdf"
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 const About = () => {
 
   const [text] = useTypewriter({
-    words: ['Web Developer', 'Graphic Designer'],
+    words: ['Web Developer', 'Web Designer'],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40
@@ -43,7 +43,7 @@ const About = () => {
             </div>
 
 
-            <p className="pt-[45px] text-justify xl:pr-[350px] sm:pr-20 pr-5  text-[16px]">Hi! My name is Sahil Ali. I am a Web Developer, and I'm very passionate and dedicated to my work.As a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+            <p className="pt-[45px] text-justify xl:pr-[350px] sm:pr-20 pr-5  text-[16px]">Hi! My name is Sahil Ali. I am a Web Developer, and I'm very passionate and dedicated to my work.As a Web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
 
             <div className="flex pt-10 sm:pr-10  ">
               <div className="lef side space-y-2">
@@ -55,7 +55,7 @@ const About = () => {
 
 
               <div className="pl-6">
-                <p><i class="fa-solid fa-calendar-days"></i>  Age: 20</p>
+                <p><i class="fa-solid fa-calendar-days"></i>  Age: 21</p>
                 <p className="py-2"><i class="fa-solid fa-gamepad"></i>  interests: Playstation, Reading</p>
                 <p><i class="fa-solid fa-graduation-cap"></i>  Degree: Web Developer</p>
                 <p className="py-2"> <i class="fa-solid fa-phone"></i> Phone: +977 9809364854</p>

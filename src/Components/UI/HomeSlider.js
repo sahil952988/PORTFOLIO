@@ -2,12 +2,14 @@ import React from 'react'
 import "../../style/HomeSlider.css"
 import Slider from 'react-slick'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import { Link } from "react-router-dom";
+
 
 
 const HomeSlider = () => {
 
   const [text] = useTypewriter({
-    words: ['Frontend Developer', 'Graphic Designer', 'Backend Developer'],
+    words: ['Frontend Developer', 'Web Designer', 'Backend Developer'],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40
@@ -18,7 +20,7 @@ const HomeSlider = () => {
     speed: 2000,
     autoplaySpeed: 3000,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
@@ -29,10 +31,7 @@ const HomeSlider = () => {
 
         <div className="slider_01 text-white h-[825px]">
           <div className="Heading flex justify-between">
-            <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-poo-storm"></i></p>
-            {/* <div className="menu">
-              <p className='text-[40px] pr-10 pt-5'><i class="fa-solid fa-bars"></i></p>
-            </div> */}
+            <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-bolt"></i></p>
           </div>
 
           <div className="Details 2xl:ml-[230px] sm:ml-[100px] ml-[50px] mt-[180px]">
@@ -50,10 +49,7 @@ const HomeSlider = () => {
 
         <div className="slider_02 text-white h-[825px]">
           <div className="Heading flex justify-between">
-            <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-poo-storm"></i></p>
-            {/* <div className="menu">
-              <p className='text-[40px] pr-10 pt-5'><i class="fa-solid fa-bars"></i></p>
-            </div> */}
+            <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-bolt"></i></p>
           </div>
 
           <div className="Details 2xl:ml-[230px] sm:ml-[100px] ml-[50px] mt-[180px]">
@@ -62,7 +58,7 @@ const HomeSlider = () => {
               <span className='text-[30px] font-semibold'>{text}</span>
               <span><Cursor /></span>
             </h1>
-            <button className='border-2 border-white px-4 py-2 font-semibold mt-4'>HIRE ME</button>
+            <button className='border-2 border-white px-4 py-2 font-semibold mt-4'> <Link to="/Contact"><p>Hire Me</p></Link></button>
           </div>
 
         </div>
@@ -72,10 +68,8 @@ const HomeSlider = () => {
 
         <div className="slider_03 text-white h-[825px]">
           <div className="Heading flex justify-between">
-            <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-poo-storm"></i></p>
-            {/* <div className="menu">
-              <p className='text-[40px] pr-10 pt-5'><i class="fa-solid fa-bars"></i></p>
-            </div> */}
+            <p className='text-[60px] pl-10 pt-5 font-bold'><i class="fa-solid fa-bolt"></i></p>
+
           </div>
 
           <div className="Details 2xl:ml-[230px] sm:ml-[100px] ml-[50px] mt-[180px]">
@@ -90,6 +84,7 @@ const HomeSlider = () => {
         </div>
 
       </Slider>
+
 
     </>
   )

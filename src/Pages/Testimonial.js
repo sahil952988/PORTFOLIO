@@ -1,8 +1,8 @@
 import React from 'react'
-import testimonialimg01 from "../../Assets/testimonialimg01.png"
-import testimonialimg02 from "../../Assets/testimonialimg02.png"
-import testimonialimg03 from "../../Assets/testimonialimg03.png"
-import testimonialimg04 from "../../Assets/testimonialimg04.png"
+import testimonialimg01 from "../Assets/testimonialimg01.png"
+import testimonialimg02 from "../Assets/testimonialimg02.png"
+import testimonialimg03 from "../Assets/testimonialimg03.png"
+import testimonialimg04 from "../Assets/testimonialimg04.png"
 import Slider from 'react-slick'
 
 const Testimonial = () => {

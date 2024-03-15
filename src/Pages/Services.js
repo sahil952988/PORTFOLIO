@@ -14,8 +14,8 @@ const Services = () => {
           <div className="item01 shadow-lg ">
             <div className="pl-14 pt-5 pr-16 mb-5 space-y-5">
               <p className="text-[#e65f78] text-[40px] font-bold "><i class="fa-regular fa-lightbulb"></i></p>
-              <p className=" text-[18px]">Creative Design</p>
-              <p className=" text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
+              <p className=" text-[18px]">Web Design</p>
+              <p className=" text-justify">I love designs and it's the first step before creating any website as I can give layout to my imagination. </p>
             </div>
           </div>
 
@@ -35,40 +35,10 @@ const Services = () => {
           <div className="item03 shadow-lg ">
             <div className="pl-14 pt-5 pr-16 mb-5 space-y-5">
               <p className="text-[#e65f78] text-[40px] font-bold "><i class="fa-regular fa-paper-plane"></i></p>
-              <p className=" text-[18px]">Brand Identity</p>
-              <p className=" text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
+              <p className=" text-[18px]">Problem Solving</p>
+              <p className=" text-justify">I love solving problems whether programming problems or real life problems. </p>
             </div>
           </div>
-
-          {/* -------- 4 ------------- */}
-
-          {/* <div className="item04 shadow-lg ">
-            <div className="pl-14 pt-5 pr-16 mb-5 space-y-5">
-              <p className="text-[#e65f78] text-[40px] font-bold "><i class="fa-regular fa-paper-plane"></i></p>
-              <p className=" text-[18px]">Brand Identity</p>
-              <p className=" text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
-            </div>
-          </div> */}
-
-          {/* -------- 5 ------------- */}
-
-          {/* <div className="item04 shadow-xl ">
-            <div className="pl-14 pt-5 pr-16 mb-5 space-y-5">
-              <p className="text-[#e65f78] text-[40px] font-bold "><i class="fa-regular fa-paper-plane"></i></p>
-              <p className=" text-[18px]">Brand Identity</p>
-              <p className=" text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
-            </div>
-          </div> */}
-
-          {/* -------- 6------------- */}
-
-          {/* <div className="item04 shadow-xl ">
-            <div className="pl-14 pt-5 pr-16 mb-5 space-y-5">
-              <p className="text-[#e65f78] text-[40px] font-bold "><i class="fa-regular fa-paper-plane"></i></p>
-              <p className=" text-[18px]">Brand Identity</p>
-              <p className=" text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
-            </div>
-          </div> */}
 
 
         </div>
