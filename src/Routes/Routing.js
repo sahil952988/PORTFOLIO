@@ -4,6 +4,7 @@ import Services from "../Pages/Services"
 import Portfolio from "../Pages/Portfolio"
 import Contact from "../Pages/Contact"
 import Home from "../Pages/Home"
+import Testimonial from "../Pages/Testimonial"
 
 
 
@@ -15,8 +16,9 @@ const Routing = () => {
         <Route path='/Home' element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Services' element={<Services />} />
-        <Route path='Portfolio' element={<Portfolio />} />
-        <Route path='Contact' element={<Contact />} />
+        <Route path='/Testimonial' element={<Testimonial />} />
+        <Route path='/Portfolio' element={<Portfolio />} />
+        <Route path='/Contact' element={<Contact />} />
 
       </Routes>
     </>

@@ -11,4 +11,6 @@
   }
 }
 
-.main.fixed {}
+.main:focus-visible {
+  background-color: white;
+}

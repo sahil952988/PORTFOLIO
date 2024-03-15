@@ -1,20 +1,10 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import "../../style/Header.css"
 import { Link } from 'react-router-dom';
 import Headroom from 'react-headroom';
+
+
 const Header = () => {
-
-  // const [fix, setFix] = useState(false);
-
-  // function setFixed() {
-  //   if (window.scrollY >= 392) {
-  //     setFix(true)
-  //   } else {
-  //     setFix(false)
-  //   }
-  // }
-  // window.addEventListener("scroll", setFix)
-
 
   const menuRef = useRef(null);
 
