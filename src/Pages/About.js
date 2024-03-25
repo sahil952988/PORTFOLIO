@@ -18,7 +18,7 @@ const About = () => {
 
         <div className="heading mb-32 xl:ml-[280px] lg:ml-[50px] ml-[50px]">
           <h1 className='text-[#e65f78] '>BIOGRAPHY</h1>
-          <h1 className='text-[30px] font-bold'>About Me</h1>
+          <h1 className='text-[30px] font-bold text-[#6f6f6f]'>About Me</h1>
         </div>
         <div className="item lg:flex">
 
@@ -43,9 +43,10 @@ const About = () => {
             </div>
 
 
-            <p className="pt-[45px] text-justify xl:pr-[350px] sm:pr-20 pr-5  text-[16px]">Hi! My name is Sahil Ali. I am a Web Developer, and I'm very passionate and dedicated to my work.As a Web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+            <p className="pt-[45px] text-justify xl:pr-[350px] sm:pr-20 pr-5  text-[16px] text-[#6f6f6f]">It's Sahil, Professional Web Developer. I love to write code, it's my passion. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.
+              No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connected with me............😊</p>
 
-            <div className="flex pt-10 sm:pr-10  ">
+            <div className="flex pt-10 sm:pr-10  text-[#6f6f6f]">
               <div className="lef side space-y-2">
                 <p><i class="fa-solid fa-gift"></i>  Birthday : 2003/01/01</p>
                 <p><i class="fa-solid fa-envelope"></i> Mail: sahilacc000@gmail.com</p>

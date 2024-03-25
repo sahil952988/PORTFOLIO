@@ -33,3 +33,11 @@
     display: block;
   }
 }
+
+.thunder {
+  font-family: "Chewy", system-ui;
+}
+
+.name {
+  font-family: "Josefin Sans", sans-serif;
+}
