@@ -3,7 +3,9 @@ import Header from "../Components/Header/Header"
 const Services = () => {
   return (
     <>
+
       <Header />
+
       <div className="pt-20 bg-white">
         <div className="heading  mb-20 xl:ml-[250px] lg:ml-[50px] ml-[50px]">
           <h1 className='text-[#e65f78] '>Services</h1>

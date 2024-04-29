@@ -18,8 +18,8 @@ const Portfolio = () => {
         <h1 className="text-[40px] font-bold">Portfolio</h1>
 
         <div className="item grid xl:grid-cols-3 lg:grid-cols-2 gap-5 pt-5">
-          {/* 
--------------- FIRST WORK ----------- */}
+
+          {/* -------------- FIRST WORK ----------- */}
           <div className="wrapper">
             <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">

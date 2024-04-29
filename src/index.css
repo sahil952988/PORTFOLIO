@@ -4,13 +4,6 @@
 
 
 
-body {
-  background: url(../src/Assets/bodybackgroundImg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 
 .fa-quote-left,
 .fa-quote-right {

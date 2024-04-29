@@ -37,7 +37,9 @@ const Testimonial = () => {
   };
   return (
     <>
+
       <Header />
+
       <h1 className='xl:px-[220px] md:px-[100px] px-[50px] bg-white text-[40px] font-bold pt-20'>TESTIMONIALS</h1>
 
       <Slider {...settings} className="overflow-hidden xl:px-[220px] md:px-[100px] px-[50px] bg-white py-20" >

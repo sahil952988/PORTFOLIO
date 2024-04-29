@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+import "../../style/NeedaService.css"
 
 const NeedaService = () => {
   return (
     <>
-      <div className="flex flex-col justify-center py-16 space-y-5">
+      <div className="needaservice flex flex-col justify-center py-16 space-y-5">
         <div>
           <p className="text-white text-[40px] font-bold text-center">NEED A SERVICE ?</p>
         </div>

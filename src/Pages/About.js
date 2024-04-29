@@ -5,6 +5,7 @@ import certificate from "../Assets/MERNSTACK CERTIFICATE.pdf"
 import cv from "../Assets/resume.pdf"
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import Header from '../Components/Header/Header'
+import Contact from './Contact'
 const About = () => {
 
   const [text] = useTypewriter({
@@ -15,11 +16,13 @@ const About = () => {
   })
   return (
     <>
+
       <Header />
+
       <div className="bg-white py-16">
 
         <div className="heading mb-32 xl:ml-[280px] lg:ml-[50px] ml-[50px]">
-          <h1 className='text-[#e65f78] '>BIOGRAPHY</h1>
+          <h1 className='text-[#e65f78] mt-[30px] '>BIOGRAPHY</h1>
           <h1 className='text-[30px] font-bold text-[#6f6f6f]'>About Me</h1>
         </div>
         <div className="item lg:flex">
@@ -77,10 +80,9 @@ const About = () => {
             </div>
           </div>
 
-
-
         </div>
       </div>
+
     </>
   )
 }
