@@ -2,7 +2,7 @@ import React from 'react'
 import "../../style/HomeSlider.css"
 import Slider from 'react-slick'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 
@@ -41,7 +41,7 @@ const HomeSlider = () => {
               <span className='name text-[30px] font-semibold'>{text}</span>
               <span><Cursor /></span>
             </h1>
-            <button className='border-2 border-white px-4 py-2 font-semibold mt-4 font-sans'>HIRE ME</button>
+            <button className='border-2 border-white px-4 py-2 font-semibold mt-4 font-sans'><NavLink to='/Contact'>HIRE ME</NavLink></button>
           </div>
 
         </div>
@@ -80,7 +80,7 @@ const HomeSlider = () => {
               <span className='text-[30px] font-semibold'>{text}</span>
               <span><Cursor /></span>
             </h1>
-            <button className='border-2 border-white px-4 py-2 font-semibold mt-4'>HIRE ME</button>
+            <button className='border-2 border-white px-4 py-2 font-semibold mt-4'><NavLink to='/Contact'>HIRE ME</NavLink></button>
           </div>
 
         </div>

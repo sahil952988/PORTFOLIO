@@ -8,10 +8,9 @@
 .wrapper {
   width: 100%;
   display: flex;
-
 }
 
-.image {
+.image_box {
   width: 450px;
   position: relative;
 }
@@ -32,7 +31,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
   opacity: 0;
   transition: 0.6s;
 }

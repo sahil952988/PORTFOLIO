@@ -1,4 +1,4 @@
-
+import React from 'react'
 import portfolioimg01 from "../Assets/portfolioimg01.png"
 import portfolioimg02 from "../Assets/portfolioimg02.png"
 import portfolioimg03 from "../Assets/portfolioimg03.png"
@@ -10,7 +10,7 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className=" bg-white 2xl:px-[200px] xl:px-[150px] lg:px-[50px] px-[30px] py-16 ">
+      <div className=" bg-white 2xl:px-[200px] xl:px-[150px] lg:px-[50px] px-[2px] py-16 ">
 
         <h1 className='text-[20px]  text-[#000d6b]'>Explore my work samples that I have done so far</h1>
         <h1 className="text-[40px] font-bold">Portfolio</h1>
@@ -19,7 +19,7 @@ const Portfolio = () => {
           {/* 
 -------------- FIRST WORK ----------- */}
           <div className="wrapper">
-            <div className="image ">
+            <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Food Delivery E-commerce Website</h1>
                 <p className='pt-3 text-white'>The Website created using React.js, Redux Toolkit and Reactstrap. Fully Responsive for all devices</p>
@@ -48,7 +48,7 @@ const Portfolio = () => {
 
           {/* ------ second work ------------ */}
           <div className="wrapper">
-            <div className="image ">
+            <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Calculator Website</h1>
                 <p className='pt-3 text-white'>The Website created using React.js, Redux Toolkit and Reactstrap. Fully Responsive for all devices</p>
@@ -78,7 +78,7 @@ const Portfolio = () => {
           {/* ----- third work --------------- */}
 
           <div className="wrapper">
-            <div className="image ">
+            <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Car Rent E-commerce Website</h1>
                 <p className='pt-3 text-white'>The Website created using React.js, Redux Toolkit and Reactstrap. Fully Responsive for all devices</p>
@@ -106,7 +106,7 @@ const Portfolio = () => {
           {/* ----- fourth work ------- */}
 
           <div className="wrapper">
-            <div className="image ">
+            <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Pre School Kider Website</h1>
                 <p className='pt-3 text-white'>The Website created using React.js, Redux Toolkit and Reactstrap. Fully Responsive for all devices</p>
@@ -134,7 +134,7 @@ const Portfolio = () => {
 
           {/* ------ Fifth Work -------------- */}
           <div className="wrapper">
-            <div className="image ">
+            <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Movie Website</h1>
                 <p className='pt-3 text-white'>The Website created using React.js, Redux Toolkit and Reactstrap. Fully Responsive for all devices</p>

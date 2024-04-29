@@ -2,7 +2,7 @@ import React from 'react'
 import "../style/About.css"
 import ava01 from "../Assets/ava01.jpg"
 import certificate from "../Assets/MERNSTACK CERTIFICATE.pdf"
-import cv from "../Assets/My Resume.pdf"
+import cv from "../Assets/resume.pdf"
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 const About = () => {
 
@@ -49,7 +49,7 @@ const About = () => {
             <div className="flex pt-10 sm:pr-10  text-[#6f6f6f]">
               <div className="lef side space-y-2">
                 <p><i class="fa-solid fa-gift"></i>  Birthday : 2003/01/01</p>
-                <p><i class="fa-solid fa-envelope"></i> Mail: sahilacc000@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i> Mail: sahilali9529888@gmail.com</p>
                 <p><i class="fa-solid fa-location-dot"></i> Current Location:Kathmandu,Nepal</p>
                 <p><i class="fa-solid fa-location-dot"></i>  Permanent Location:Bihar,India</p>
               </div>
