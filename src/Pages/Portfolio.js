@@ -5,11 +5,13 @@ import portfolioimg03 from "../Assets/portfolioimg03.png"
 import portfolioimg04 from "../Assets/portfolioimg04.png"
 import portfolioimg05 from "../Assets/portfolioimg05.png"
 import "../style/Portfolio.css"
+import Header from '../Components/Header/Header'
 
 const Portfolio = () => {
 
   return (
     <>
+      <Header />
       <div className=" bg-white 2xl:px-[200px] xl:px-[150px] lg:px-[50px] px-[2px] py-16 ">
 
         <h1 className='text-[20px]  text-[#000d6b]'>Explore my work samples that I have done so far</h1>

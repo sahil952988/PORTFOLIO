@@ -4,6 +4,7 @@ import ava01 from "../Assets/ava01.jpg"
 import certificate from "../Assets/MERNSTACK CERTIFICATE.pdf"
 import cv from "../Assets/resume.pdf"
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import Header from '../Components/Header/Header'
 const About = () => {
 
   const [text] = useTypewriter({
@@ -14,6 +15,7 @@ const About = () => {
   })
   return (
     <>
+      <Header />
       <div className="bg-white py-16">
 
         <div className="heading mb-32 xl:ml-[280px] lg:ml-[50px] ml-[50px]">
