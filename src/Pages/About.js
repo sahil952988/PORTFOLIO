@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
 import "../style/About.css"
 import ava01 from "../Assets/ava01.jpg"
+import ava02 from "../Assets/ava02.jpg"
+import ava03 from "../Assets/ava03.jpg"
+import ava04 from "../Assets/ava05.jpg"
 import certificate from "../Assets/MERNSTACK CERTIFICATE.pdf"
 import cv from "../Assets/resume.pdf"
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
@@ -35,7 +38,7 @@ const About = () => {
 
           <div data-aos='fade-up' className="left_side 2xl:ml-[280px] xl:ml-[120px] lg:ml-[50px] sm:ml-[100px] ml-5">
             <div className="img">
-              <img className="absolute ml-7 mt-[-25px]  lg:w-[300px] sm:w-[350px] w-[300px] h-[400px]" src={ava01} alt="about" />
+              <img className="absolute ml-7 mt-[-25px]  lg:w-[300px] sm:w-[350px] w-[300px] h-[400px]" src={ava02} alt="about" />
 
               <p className="border-[10px] border-[#cc7722]  lg:w-[290px] sm:w-[320px] w-[300px] h-[400px] ">
               </p>

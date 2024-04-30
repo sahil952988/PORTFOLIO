@@ -6,10 +6,12 @@
 }
 
 .slider_02 {
-  background: linear-gradient(rgba(19, 19, 20, 0.2), rgba(21, 21, 21, 0.2)), url(../Assets/viber_image_02.jpg);
+  background: linear-gradient(rgba(19, 19, 20, 0.2), rgba(21, 21, 21, 0.2)), url(../Assets/sliderimg02.jpg);
+  width: 300px;
+
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .slider_03 {
