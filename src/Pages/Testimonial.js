@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import testimonialimg01 from "../Assets/testimonialimg01.png"
 import testimonialimg02 from "../Assets/testimonialimg02.png"
 import testimonialimg03 from "../Assets/testimonialimg03.png"
 import testimonialimg04 from "../Assets/testimonialimg04.png"
 import Slider from 'react-slick'
 import Header from '../Components/Header/Header'
+import Aos from 'aos'
 
 const Testimonial = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1200, delay: 1, });
+  }, [])
+
   const settings = {
     dots: true,
     infinite: true,
@@ -40,7 +46,7 @@ const Testimonial = () => {
 
       <Header />
 
-      <h1 className='xl:px-[220px] md:px-[100px] px-[50px] bg-white text-[40px] font-bold pt-20'>TESTIMONIALS</h1>
+      <h1 data-aos='fade-up' className='xl:px-[220px] md:px-[100px] px-[50px] bg-white text-[40px] font-bold pt-20'>TESTIMONIALS</h1>
 
       <Slider {...settings} className="overflow-hidden xl:px-[220px] md:px-[100px] px-[50px] bg-white py-20" >
         <div className="testimonial py-4 px-3 w-[25%]">

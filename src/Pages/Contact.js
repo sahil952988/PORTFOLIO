@@ -8,8 +8,14 @@ import { useFormik } from "formik";
 import * as Yup from 'yup';
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1200, delay: 1, });
+  }, [])
+
   const crudSchema = Yup.object().shape({
     username: Yup.string().min(5).max(25).required(),
     email: Yup.string().matches(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, 'please provide valid email').required(''),
@@ -32,10 +38,10 @@ const Contact = () => {
       <Header />
 
       <div className="contact py-20">
-        <h1 className="text-[40px] font-bold text-center text-white pb-20 font-serif">SAY HELLO!</h1>
+        <h1 data-aos='fade-up' className="text-[40px] font-bold text-center text-white pb-20 font-serif">SAY HELLO!</h1>
 
         <div className="form flex justify-center sm:mx-0 mx-5">
-          <form onSubmit={formik.handleSubmit} className="lg:w-[50%] sm:w-[75%] w-full bg-white rounded-xl ">
+          <form data-aos='fade-up' onSubmit={formik.handleSubmit} className="lg:w-[50%] sm:w-[75%] w-full bg-white rounded-xl ">
 
             <div className="form_itmes flex  flex-col gap-4 mx-5 mt-5">
               <div className="flex lg:flex-row flex-col lg:space-x-5 lg:space-y-0 space-y-5">

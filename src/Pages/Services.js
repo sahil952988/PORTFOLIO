@@ -1,13 +1,19 @@
+import Aos from "aos";
 import Header from "../Components/Header/Header"
+import { useEffect } from "react";
 
 const Services = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1200, delay: 1, });
+  }, [])
   return (
     <>
 
       <Header />
 
       <div className="pt-20 bg-white">
-        <div className="heading  mb-20 xl:ml-[250px] lg:ml-[50px] ml-[50px]">
+        <div data-aos='fade-up' className="heading  mb-20 xl:ml-[250px] lg:ml-[50px] ml-[50px]">
           <h1 className='text-[#e65f78] '>Services</h1>
           <h1 className='text-[30px] font-bold'>Quality Services</h1>
         </div>
@@ -15,7 +21,7 @@ const Services = () => {
 
         <div className="items 2xl:px-[200px] xl:px-[100px] lg:px-[50px] px-10 pt-5 py-20 grid xl:grid-cols-3 lg:grid-cols-2 gap-5">
 
-          <div className="item01 shadow-lg ">
+          <div data-aos='fade-up' className="item01 shadow-lg ">
             <div className="pl-14 pt-5 pr-16 mb-5 space-y-5">
               <p className="text-[#e65f78] text-[40px] font-bold "><i class="fa-regular fa-lightbulb"></i></p>
               <p className=" text-[18px]">Web Design</p>
@@ -26,7 +32,7 @@ const Services = () => {
 
           {/* -------- 2 ------------- */}
 
-          <div className="item02 shadow-lg ">
+          <div data-aos='fade-up' className="item02 shadow-lg ">
             <div className="pl-14 pt-5 pr-16 mb-5 space-y-5">
               <p className="text-[#e65f78] text-[40px] font-bold "><i class="fa-solid fa-laptop-code"></i></p>
               <p className=" text-[18px]">Web Development</p>
@@ -36,7 +42,7 @@ const Services = () => {
 
           {/* -------- 3 ------------- */}
 
-          <div className="item03 shadow-lg ">
+          <div data-aos='fade-up' className="item03 shadow-lg ">
             <div className="pl-14 pt-5 pr-16 mb-5 space-y-5">
               <p className="text-[#e65f78] text-[40px] font-bold "><i class="fa-regular fa-paper-plane"></i></p>
               <p className=" text-[18px]">Problem Solving</p>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import portfolioimg01 from "../Assets/portfolioimg01.png"
 import portfolioimg02 from "../Assets/portfolioimg02.png"
 import portfolioimg03 from "../Assets/portfolioimg03.png"
@@ -6,21 +6,24 @@ import portfolioimg04 from "../Assets/portfolioimg04.png"
 import portfolioimg05 from "../Assets/portfolioimg05.png"
 import "../style/Portfolio.css"
 import Header from '../Components/Header/Header'
+import Aos from 'aos'
 
 const Portfolio = () => {
-
+  useEffect(() => {
+    Aos.init({ duration: 1200, delay: 1, });
+  }, [])
   return (
     <>
       <Header />
       <div className=" bg-white 2xl:px-[200px] xl:px-[150px] lg:px-[50px] px-[2px] py-16 ">
 
-        <h1 className='text-[20px]  text-[#000d6b]'>Explore my work samples that I have done so far</h1>
-        <h1 className="text-[40px] font-bold">Portfolio</h1>
+        <h1 data-aos='fade-up' className='text-[20px]  text-[#000d6b]'>Explore my work samples that I have done so far</h1>
+        <h1 data-aos='fade-up' className="text-[40px] font-bold">Portfolio</h1>
 
         <div className="item grid xl:grid-cols-3 lg:grid-cols-2 gap-5 pt-5">
 
           {/* -------------- FIRST WORK ----------- */}
-          <div className="wrapper">
+          <div data-aos='fade-up' className="wrapper">
             <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Food Delivery E-commerce Website</h1>
@@ -49,7 +52,7 @@ const Portfolio = () => {
 
 
           {/* ------ second work ------------ */}
-          <div className="wrapper">
+          <div data-aos='fade-up' className="wrapper">
             <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Calculator Website</h1>
@@ -79,7 +82,7 @@ const Portfolio = () => {
 
           {/* ----- third work --------------- */}
 
-          <div className="wrapper">
+          <div data-aos='fade-up' className="wrapper">
             <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Car Rent E-commerce Website</h1>
@@ -107,7 +110,7 @@ const Portfolio = () => {
 
           {/* ----- fourth work ------- */}
 
-          <div className="wrapper">
+          <div data-aos='fade-up' className="wrapper">
             <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Pre School Kider Website</h1>
@@ -135,7 +138,7 @@ const Portfolio = () => {
 
 
           {/* ------ Fifth Work -------------- */}
-          <div className="wrapper">
+          <div data-aos='fade-up' className="wrapper">
             <div className="image_box ">
               <div className="bg-[#132347] px-5 py-5">
                 <h1 className='text-[18px] text-[#e65f78] font-semibold'>Movie Website</h1>
